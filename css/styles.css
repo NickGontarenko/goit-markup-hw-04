@@ -164,8 +164,8 @@ img {
 }
 /* ---------------hero---------------- */
 .hero {
-  /* max-width: 1600px;
-  margin: 0 auto; */
+  max-width: 1600px;
+  margin: 0 auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
@@ -404,6 +404,33 @@ address {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.footer-holder {
+  display: flex;
+}
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.footer-social {
+  margin-top: 12px;
+}
+
+.footer-social-tittle {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+  margin-bottom: 20px;
+}
+
+.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon {
+  fill: var(--primery-white-color);
 }
 /* --------------------------------------------------porfolio.html----------------------------------- */
 /* ---------------filter---------------- */
